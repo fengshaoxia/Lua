@@ -1,2 +1,12 @@
 
 dllProject/.vs/dllProject/v14/.suo
+*.exp
+*.pdb
+*.db
+*.log
+*.obj
+*.ilk
+*.tlog
+*.opendb
+*.idb
+*.user

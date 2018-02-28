@@ -7,8 +7,8 @@ extern "C"
 #include "lualib.h"
 }
 
-#include <string>
-using namespace std;
+
+
 
 #ifdef DLLPROJECT_EXPORTS
 #define DLLPROJECT_API __declspec(dllexport)
@@ -16,6 +16,6 @@ using namespace std;
 #define DLLPROJECT_API __declspec(dllimport)
 #endif
 
-extern "C" __declspec(dllexport)DLLPROJECT_API int luaL_dllProject(lua_State* L);
+extern "C" DLLPROJECT_API int luaL_dllProject(lua_State* L);
 
 
